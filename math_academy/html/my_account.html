@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- CSS only -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"/>
+
+    <!-- JavaScript Bundle with Popper -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"></script>
+
+    <!-- icon -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.0/font/bootstrap-icons.css"/>
+
+    <link rel="stylesheet" href="../css/my_account.css" />
+
+    <title>나의 페이지</title>
+  </head>
+  <body>
+    <div class="my_account_main">
+      <header class=" btn-dark">
+        <a class="btn btn-light" href="./main.html" role="button">
+          <i class="bi bi-arrow-left"></i>
+          <i class="bi bi-house"></i>
+        </a>
+        <span class="academyname"><i class="bi bi-pencil-fill">Math Academy</i></span>
+        <div class="title">나의 페이지</div>
+      </header>
+
+      <article class="myInfo">
+        <div>
+          <img src="../image/teacher_woman_icon.png" alt="????" height="200"><br>
+        </div>
+        <div class="level_container">
+          <span class="level_tag">직위 :</span>
+          <span class="level">원장</span>
+        </div>
+        <div class="ledgerName_container">
+          <span class="ledgerName_tag">이름 :</span>
+          <span class="ledgerName">김수학</span>
+        </div>
+        <div class="phoneNum_container">
+          <span class="phoneNum_tag">전화번호 :</span>
+          <span class="phoneNum">010-1111-2222</span>
+        </div>
+      </article>
+
+      <!-- 공백을 위한 div -->
+      <div></div>
+
+      <section class="manage_student">
+        <!-- 칸 비율 맞추기 위한 태그 -->
+        <div></div>
+        <a class="btn btn-warning btn-lg" href="./newStudentRegister.html" role="button">신규 학생 등록</a>
+        <div></div>
+      </section>
+
+      <!-- 공백을 위한 div -->
+      <div></div>
+
+      <section class="manage_teacher">
+        <div></div>
+        <a class="btn btn-warning btn-lg" href="./newTeacherRegister.html" role="button">신규 강사 등록</a>
+        <div></div>
+      </section>
+      <footer>2021 web programming</footer>
+    </div>
+  </body>
+</html>

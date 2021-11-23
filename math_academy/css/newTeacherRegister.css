@@ -1,0 +1,38 @@
+.newTeacherRegister{
+    display: grid;
+    grid-template-rows: 70px 1fr 50px 50px 50px;
+    min-height: 100vh;
+}
+
+body div header{
+    padding: 5px 5px 5px 5px;
+}
+
+.academyname{
+    float: right;
+}
+.title{
+    text-align: center;
+    font-weight: bold;
+}
+
+article{
+    margin: 10px 10px 10px 10px;
+    text-align: center;
+}
+.infoInput{
+    margin-top: 100px;
+}
+.other{
+    margin-top: 20px;
+}
+section{
+    margin: 0 20px 0 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+footer{
+    text-align: right;
+    padding: 5px 5px 0 0;
+}

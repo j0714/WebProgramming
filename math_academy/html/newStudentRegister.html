@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- CSS only -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+
+    <!-- JavaScript Bundle with Popper -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- icon -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.0/font/bootstrap-icons.css"
+    />
+
+    <!-- axios -->
+    <script src="https://cdn.jsdelivr.net/npm/axios@0.24.0/dist/axios.min.js"></script>
+
+    <script src="../js/createUser.js"></script>
+    <link rel="stylesheet" href="../css/newStudentRegister.css">
+
+    <title>신규 학생 등록</title>
+  </head>
+  <body>
+      <div class="newStudentRegister">
+        <header class=" btn-dark">
+            <a class="btn btn-light" href="./main.html" role="button">
+              <i class="bi bi-arrow-left"></i>
+              <i class="bi bi-house"></i>
+            </a>
+            <span class="academyname"><i class="bi bi-pencil-fill">Math Academy</i></span>
+            <div class="title">신규 학생 등록</div>
+        </header>
+        <article>
+            <div class="infoInput">
+                <label for="studentNameInfo">이름 </label>
+                <input id="studentNameInfo" class="studentNameInput" type="text" placeholder="이름">
+            </div>
+            <div class="other">
+                <label for="schoolInfo">학교 </label>
+                <input id="schoolInfo" class="schoolInput" type="text" placeholder="중학교 / 고등학교">
+                <div> ex)가좌중학교 </div>
+            </div>
+            <div class="other">
+                <label for="gradeInfo">학년 </label>
+                <input id="gradeInfo" class="gradeInput" type="text" placeholder="학년">
+                <div> ex) 3학년 </div>
+            </div>
+            <div class="other">
+              <label for="testScoreInfo">시험 점수 </label>
+              <input id="testScoreInfo" class="testScoreInput" type="text" placeholder="점수">
+              <div> ex) 95 </div>
+          </div>
+        </article>
+        <section>
+            <div></div>
+            <button type="button" class="btn btn-warning" onclick="studentCreateUser()">등록</button>
+            <div></div>
+        </section>
+        <div></div>
+        <footer>2021 web programming</footer>
+      </div>
+  </body>
+</html>
