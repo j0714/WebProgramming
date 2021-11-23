@@ -1,0 +1,34 @@
+.mainPart{
+    display: grid;
+    grid-template-rows: 70px 50px 1fr 50px 50px;
+    min-height: 100vh;
+}
+
+header{
+    font-weight: bold;
+    padding: 10px 0 0 10px;
+}
+header h1{
+    display: inline;
+}
+.mypage{
+    float: right;
+    margin-right: 10px;
+}
+.nametag{
+    background-color: black;
+    color: white;
+    /* 없으면 뚱뚱해짐 */
+    padding: 0 0 0 0;
+    font-weight: bold;
+}
+.homework_button_group{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    text-align: center;
+    margin: 0 20px 0 20px;
+}
+div footer{
+    text-align: right;
+    padding: 5px 5px 0 0;
+}

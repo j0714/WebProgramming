@@ -1,0 +1,57 @@
+.checkHw_main{
+    display: grid;
+    grid-template-rows: 70px 1fr 20px  20px 50px 50px;
+    min-height: 100vh;
+}
+
+body div header{
+    padding: 5px 5px 5px 5px;
+}
+
+
+
+.academyname{
+    float: right;
+}
+.title{
+    text-align: center;
+    font-weight: bold;
+}
+
+article{
+    margin: 10px 20px 20px 20px;
+    text-align: center;
+}
+.divider{
+    font-weight: bold;
+}
+table{
+    margin-left: 30px;
+}
+tr {
+    text-align: right;
+}
+article div{
+    margin-top: 30px;
+}
+
+section{
+    margin: 0 20px 0 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.prevInfo{
+    font-weight: bold;
+    margin: 0 0 20px 20px;
+    text-align: left;
+}
+.nextInfo{
+    font-weight: bold;
+    margin: 0 20px 20px 0;
+    text-align: right;
+}
+footer{
+    text-align: right;
+    padding: 5px 5px 0 0;
+}
