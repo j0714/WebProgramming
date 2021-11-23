@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- CSS only -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+
+    <!-- JavaScript Bundle with Popper -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- icon -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.0/font/bootstrap-icons.css"
+    />
+
+    <!-- axios -->
+    <script src="https://cdn.jsdelivr.net/npm/axios@0.24.0/dist/axios.min.js"></script>
+
+    <script src="../js/createUser.js"></script>
+    <link rel="stylesheet" href="../css/newTeacherRegister.css">
+
+    <title>신규 강사 등록</title>
+  </head>
+  <body>
+    <div class="newTeacherRegister">
+        <header class=" btn-dark">
+            <a class="btn btn-light" href="./main.html" role="button">
+              <i class="bi bi-arrow-left"></i>
+              <i class="bi bi-house"></i>
+            </a>
+            <span class="academyname"><i class="bi bi-pencil-fill">Math Academy</i></span>
+            <div class="title">신규 강사 등록</div>
+        </header>
+        <article>
+            <div class="infoInput">
+                <label for="teacherNameInfo">이름 </label>
+                <input id="teacherNameInfo" class="teacherNameInput" type="text" placeholder="">
+            </div>
+            <div class="other">
+              <label for="addressInfo">주소 </label>
+              <input id="addressInfo" class="addressInput" type="text" placeholder="">
+          </div>
+          <div class="other">
+              <label for="phoneInfo">전화번호 </label>
+              <input id="phoneInfo" class="phoneInput" type="text" placeholder="">
+          </div>
+          <div class="other">
+            <label for="genderInfo">성별 </label>
+            <input id="genderInfo" class="genderInput" type="text" placeholder="">
+          </div>
+          <div class="other">
+              <label for="ageInfo">나이 </label>
+              <input id="ageInfo" class="ageInput" type="text" placeholder="">
+          </div>
+        </article>
+        <section>
+            <div></div>
+            <button type="button" class="btn btn-warning" onclick="teacherCreateUser()">등록</button>
+            <div></div>
+        </section>
+        <div></div>
+        <footer>2021 web programming</footer>
+      </div>
+  </body>
+</html>
